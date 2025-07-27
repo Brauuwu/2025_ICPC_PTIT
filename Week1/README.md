@@ -1,7 +1,7 @@
 # Week 1
 ## Problem A - BÀI A. TAM GIÁC
 ### Solution:
-• Với mỗi bộ ba điểm (`a[i]`, `a[j]`, `a[k]`), kiểm tra xem chúng có tạo thành một tam giác hợp lệ không (tức là không thẳng hàng).  
+• Với mỗi bộ ba điểm (**`a[i]`, `a[j]`, `a[k]`**), kiểm tra xem chúng có tạo thành một tam giác hợp lệ không (tức là không thẳng hàng).  
 • Sử dụng công thức diện tích tam giác (dựa vào tọa độ) để kiểm tra xem ba điểm có tạo thành tam giác hợp lệ (`S ≠ 0`).  
 **$`\frac{1}{2} \left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \right|`$**  
 • Duyệt tất cả tổ hợp 3 điểm khác nhau bằng ba vòng lặp lồng nhau.  
