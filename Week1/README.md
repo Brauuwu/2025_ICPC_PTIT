@@ -4,7 +4,10 @@
 • Với mỗi bộ ba điểm (**`a[i]`, `a[j]`, `a[k]`**), kiểm tra xem chúng có tạo thành một tam giác hợp lệ không (tức là không thẳng hàng).  
 • Sử dụng công thức diện tích tam giác (dựa vào tọa độ) để kiểm tra xem ba điểm có tạo thành tam giác hợp lệ (`S ≠ 0`).
 
-<p align="center">**$`\frac{1}{2} \left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \right|`$**</p>  
+<p align="center"><strong> 
+  <img src="https://latex.codecogs.com/png.image?\dpi{120}S%20=%20\frac{1}{2}%20\left|x_1(y_2%20-%20y_3)%20+%20x_2(y_3%20-%20y_1)%20+%20x_3(y_1%20-%20y_2)\right|" alt="Công thức diện tích tam giác">
+</p>
+</strong></p>  
 
 • Duyệt tất cả tổ hợp 3 điểm khác nhau bằng ba vòng lặp lồng nhau.  
 • Thuật toán brute-force với độ phức tạp **O(n³)**, chấp nhận được khi `n` nhỏ.  
