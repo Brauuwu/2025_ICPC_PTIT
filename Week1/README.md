@@ -1,5 +1,10 @@
 # Week 1
 ## Problem A - BÀI A. TAM GIÁC
+### Solution:
+• Với mỗi bộ ba điểm (a[i], a[j], a[k]), kiểm tra xem chúng có tạo thành một tam giác hợp lệ không (tức là không thẳng hàng). 
+• Sử dụng công thức diện tích tam giác (dựa vào tọa độ) để kiểm tra xem ba điểm có tạo thành tam giác hợp lệ (diện tích ≠ 0).  
+• Duyệt tất cả tổ hợp 3 điểm khác nhau bằng ba vòng lặp lồng nhau.  
+• Thuật toán brute-force với độ phức tạp **O(n³)**, chấp nhận được khi `n` nhỏ.
 
 ## Problem B - BÀI B. GHÉP TỪ
 
