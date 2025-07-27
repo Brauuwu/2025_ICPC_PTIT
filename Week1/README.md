@@ -5,8 +5,7 @@
 • Sử dụng công thức diện tích tam giác (dựa vào tọa độ) để kiểm tra xem ba điểm có tạo thành tam giác hợp lệ (`S ≠ 0`).
 
 <p align="center"><strong> 
-  <img src="https://latex.codecogs.com/png.image?\dpi{120}S%20=%20\frac{1}{2}%20\left|x_1(y_2%20-%20y_3)%20+%20x_2(y_3%20-%20y_1)%20+%20x_3(y_1%20-%20y_2)\right|" alt="Công thức diện tích tam giác">
-</p>
+  <img src="https://latex.codecogs.com/png.image?\dpi{120}&bg=white&S%20=%20\frac{1}{2}%20\left|x_1(y_2%20-%20y_3)%20+%20x_2(y_3%20-%20y_1)%20+%20x_3(y_1%20-%20y_2)\right|" alt="Công thức diện tích tam giác">
 </strong></p>  
 
 • Duyệt tất cả tổ hợp 3 điểm khác nhau bằng ba vòng lặp lồng nhau.  
